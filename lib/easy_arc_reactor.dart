@@ -79,6 +79,7 @@ class _MyAppState extends State<MyApp> {
               borderRadius: BorderRadius.circular(10),
             ),
             child: const TextField(
+              obscureText: true,
               style: TextStyle(
                   letterSpacing: 2,
                   color: Color.fromARGB(255, 0, 255, 255),
